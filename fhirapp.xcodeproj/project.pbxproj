@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		899BAA45178EF0E800BCE54E /* FHIRAPPApploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899BAA44178EF0E800BCE54E /* FHIRAPPApploadViewController.m */; };
+		89A97B6F178DD12C00B08DEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A97B6E178DD12C00B08DEF /* UIKit.framework */; };
+		89A97B71178DD12C00B08DEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A97B70178DD12C00B08DEF /* Foundation.framework */; };
+		89A97B73178DD12C00B08DEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A97B72178DD12C00B08DEF /* CoreGraphics.framework */; };
+		89A97B79178DD12C00B08DEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89A97B77178DD12C00B08DEF /* InfoPlist.strings */; };
+		89A97B7B178DD12C00B08DEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A97B7A178DD12C00B08DEF /* main.m */; };
+		89A97B7F178DD12C00B08DEF /* FHIRAPPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A97B7E178DD12C00B08DEF /* FHIRAPPAppDelegate.m */; };
+		89A97B81178DD12C00B08DEF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 89A97B80178DD12C00B08DEF /* Default.png */; };
+		89A97B83178DD12C00B08DEF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89A97B82178DD12C00B08DEF /* Default@2x.png */; };
+		89A97B85178DD12C00B08DEF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89A97B84178DD12C00B08DEF /* Default-568h@2x.png */; };
+		89A97B88178DD12C00B08DEF /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A97B86178DD12C00B08DEF /* MainStoryboard_iPhone.storyboard */; };
+		89A97B8B178DD12C00B08DEF /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A97B89178DD12C00B08DEF /* MainStoryboard_iPad.storyboard */; };
+		89A97B8E178DD12C00B08DEF /* FHIRAPPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A97B8D178DD12C00B08DEF /* FHIRAPPMasterViewController.m */; };
+		89A97B91178DD12D00B08DEF /* FHIRAPPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A97B90178DD12D00B08DEF /* FHIRAPPDetailViewController.m */; };
+		89A97B99178DD12D00B08DEF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A97B98178DD12D00B08DEF /* SenTestingKit.framework */; };
+		89A97B9A178DD12D00B08DEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A97B6E178DD12C00B08DEF /* UIKit.framework */; };
+		89A97B9B178DD12D00B08DEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A97B70178DD12C00B08DEF /* Foundation.framework */; };
+		89A97BA3178DD12D00B08DEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89A97BA1178DD12D00B08DEF /* InfoPlist.strings */; };
+		89A97BA6178DD12D00B08DEF /* fhirappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A97BA5178DD12D00B08DEF /* fhirappTests.m */; };
+		89A97C02178DD26300B08DEF /* libFHIR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A97C01178DD26300B08DEF /* libFHIR.a */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89A97B9C178DD12D00B08DEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89A97B63178DD12C00B08DEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89A97B6A178DD12C00B08DEF;
+			remoteInfo = fhirapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		899BAA43178EF0E700BCE54E /* FHIRAPPApploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRAPPApploadViewController.h; sourceTree = "<group>"; };
+		899BAA44178EF0E800BCE54E /* FHIRAPPApploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHIRAPPApploadViewController.m; sourceTree = "<group>"; };
+		89A97B6B178DD12C00B08DEF /* fhirapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fhirapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A97B6E178DD12C00B08DEF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		89A97B70178DD12C00B08DEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		89A97B72178DD12C00B08DEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		89A97B76178DD12C00B08DEF /* fhirapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fhirapp-Info.plist"; sourceTree = "<group>"; };
+		89A97B78178DD12C00B08DEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89A97B7A178DD12C00B08DEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89A97B7C178DD12C00B08DEF /* fhirapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fhirapp-Prefix.pch"; sourceTree = "<group>"; };
+		89A97B7D178DD12C00B08DEF /* FHIRAPPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHIRAPPAppDelegate.h; sourceTree = "<group>"; };
+		89A97B7E178DD12C00B08DEF /* FHIRAPPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHIRAPPAppDelegate.m; sourceTree = "<group>"; };
+		89A97B80178DD12C00B08DEF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		89A97B82178DD12C00B08DEF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		89A97B84178DD12C00B08DEF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		89A97B87178DD12C00B08DEF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		89A97B8A178DD12C00B08DEF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		89A97B8C178DD12C00B08DEF /* FHIRAPPMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHIRAPPMasterViewController.h; sourceTree = "<group>"; };
+		89A97B8D178DD12C00B08DEF /* FHIRAPPMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHIRAPPMasterViewController.m; sourceTree = "<group>"; };
+		89A97B8F178DD12C00B08DEF /* FHIRAPPDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHIRAPPDetailViewController.h; sourceTree = "<group>"; };
+		89A97B90178DD12D00B08DEF /* FHIRAPPDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHIRAPPDetailViewController.m; sourceTree = "<group>"; };
+		89A97B97178DD12D00B08DEF /* fhirappTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fhirappTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A97B98178DD12D00B08DEF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		89A97BA0178DD12D00B08DEF /* fhirappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fhirappTests-Info.plist"; sourceTree = "<group>"; };
+		89A97BA2178DD12D00B08DEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89A97BA4178DD12D00B08DEF /* fhirappTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fhirappTests.h; sourceTree = "<group>"; };
+		89A97BA5178DD12D00B08DEF /* fhirappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fhirappTests.m; sourceTree = "<group>"; };
+		89A97BB1178DD26300B08DEF /* DictToJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictToJSON.h; sourceTree = "<group>"; };
+		89A97BB2178DD26300B08DEF /* DictToXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictToXML.h; sourceTree = "<group>"; };
+		89A97BB3178DD26300B08DEF /* FHIR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIR.h; sourceTree = "<group>"; };
+		89A97BB4178DD26300B08DEF /* FHIRAdverseReaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRAdverseReaction.h; sourceTree = "<group>"; };
+		89A97BB5178DD26300B08DEF /* FHIRAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRAlert.h; sourceTree = "<group>"; };
+		89A97BB6178DD26300B08DEF /* FHIRAllergyIntolerance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRAllergyIntolerance.h; sourceTree = "<group>"; };
+		89A97BB7178DD26300B08DEF /* FHIRCarePlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRCarePlan.h; sourceTree = "<group>"; };
+		89A97BB8178DD26300B08DEF /* FHIRCoverage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRCoverage.h; sourceTree = "<group>"; };
+		89A97BB9178DD26300B08DEF /* FHIRMedication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRMedication.h; sourceTree = "<group>"; };
+		89A97BBA178DD26300B08DEF /* FHIRMedicationAdministration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRMedicationAdministration.h; sourceTree = "<group>"; };
+		89A97BBB178DD26300B08DEF /* FHIRMedicationDispense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRMedicationDispense.h; sourceTree = "<group>"; };
+		89A97BBC178DD26300B08DEF /* FHIRMedicationPrescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRMedicationPrescription.h; sourceTree = "<group>"; };
+		89A97BBD178DD26300B08DEF /* FHIRMedicationStatement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRMedicationStatement.h; sourceTree = "<group>"; };
+		89A97BBE178DD26300B08DEF /* FHIROrganization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIROrganization.h; sourceTree = "<group>"; };
+		89A97BBF178DD26300B08DEF /* FHIRPatient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRPatient.h; sourceTree = "<group>"; };
+		89A97BC0178DD26300B08DEF /* FHIRResourceDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRResourceDictionary.h; sourceTree = "<group>"; };
+		89A97BC1178DD26300B08DEF /* JSONToDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONToDict.h; sourceTree = "<group>"; };
+		89A97BC2178DD26300B08DEF /* XMLToDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLToDict.h; sourceTree = "<group>"; };
+		89A97BC5178DD26300B08DEF /* Base64Binary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Binary.h; sourceTree = "<group>"; };
+		89A97BC6178DD26300B08DEF /* Base64Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Decoder.h; sourceTree = "<group>"; };
+		89A97BC7178DD26300B08DEF /* Base64Encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Encoder.h; sourceTree = "<group>"; };
+		89A97BC8178DD26300B08DEF /* FHIR-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FHIR-Prefix.pch"; sourceTree = "<group>"; };
+		89A97BC9178DD26300B08DEF /* FHIRAccreditation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRAccreditation.h; sourceTree = "<group>"; };
+		89A97BCA178DD26300B08DEF /* FHIRActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRActivity.h; sourceTree = "<group>"; };
+		89A97BCB178DD26300B08DEF /* FHIRAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRAddress.h; sourceTree = "<group>"; };
+		89A97BCC178DD26300B08DEF /* FHIRAnimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRAnimal.h; sourceTree = "<group>"; };
+		89A97BCD178DD26300B08DEF /* FHIRAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRAttachment.h; sourceTree = "<group>"; };
+		89A97BCE178DD26300B08DEF /* FHIRBool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRBool.h; sourceTree = "<group>"; };
+		89A97BCF178DD26300B08DEF /* FHIRChoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRChoice.h; sourceTree = "<group>"; };
+		89A97BD0178DD26300B08DEF /* FHIRChoiceOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRChoiceOption.h; sourceTree = "<group>"; };
+		89A97BD1178DD26300B08DEF /* FHIRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRCode.h; sourceTree = "<group>"; };
+		89A97BD2178DD26300B08DEF /* FHIRCodeableConcept.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRCodeableConcept.h; sourceTree = "<group>"; };
+		89A97BD3178DD26300B08DEF /* FHIRCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRCoding.h; sourceTree = "<group>"; };
+		89A97BD4178DD26300B08DEF /* FHIRCommunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRCommunication.h; sourceTree = "<group>"; };
+		89A97BD5178DD26300B08DEF /* FHIRContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRContact.h; sourceTree = "<group>"; };
+		89A97BD6178DD26300B08DEF /* FHIRContactEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRContactEntity.h; sourceTree = "<group>"; };
+		89A97BD7178DD26300B08DEF /* FHIRContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRContent.h; sourceTree = "<group>"; };
+		89A97BD8178DD26300B08DEF /* FHIRDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRDate.h; sourceTree = "<group>"; };
+		89A97BD9178DD26300B08DEF /* FHIRDispense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRDispense.h; sourceTree = "<group>"; };
+		89A97BDA178DD26300B08DEF /* FHIRDosage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRDosage.h; sourceTree = "<group>"; };
+		89A97BDB178DD26300B08DEF /* FHIRDosageInstructions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRDosageInstructions.h; sourceTree = "<group>"; };
+		89A97BDC178DD26300B08DEF /* FHIRElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRElement.h; sourceTree = "<group>"; };
+		89A97BDD178DD26300B08DEF /* FHIRExistanceChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRExistanceChecker.h; sourceTree = "<group>"; };
+		89A97BDE178DD26300B08DEF /* FHIRExposure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRExposure.h; sourceTree = "<group>"; };
+		89A97BDF178DD26300B08DEF /* FHIRExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRExtension.h; sourceTree = "<group>"; };
+		89A97BE0178DD26300B08DEF /* FHIRGoal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRGoal.h; sourceTree = "<group>"; };
+		89A97BE1178DD26300B08DEF /* FHIRHumanName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRHumanName.h; sourceTree = "<group>"; };
+		89A97BE2178DD26300B08DEF /* FHIRIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRIdentifier.h; sourceTree = "<group>"; };
+		89A97BE3178DD26300B08DEF /* FHIRImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRImage.h; sourceTree = "<group>"; };
+		89A97BE4178DD26300B08DEF /* FHIRIngredient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRIngredient.h; sourceTree = "<group>"; };
+		89A97BE5178DD26300B08DEF /* FHIRInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRInteger.h; sourceTree = "<group>"; };
+		89A97BE6178DD26300B08DEF /* FHIRMedicationPrescriptionDispense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRMedicationPrescriptionDispense.h; sourceTree = "<group>"; };
+		89A97BE7178DD26300B08DEF /* FHIRMedicationPrescriptionSubstitution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRMedicationPrescriptionSubstitution.h; sourceTree = "<group>"; };
+		89A97BE8178DD26300B08DEF /* FHIRNarrative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRNarrative.h; sourceTree = "<group>"; };
+		89A97BE9178DD26300B08DEF /* FHIRNodeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRNodeType.h; sourceTree = "<group>"; };
+		89A97BEA178DD26300B08DEF /* FHIRPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRPackage.h; sourceTree = "<group>"; };
+		89A97BEB178DD26300B08DEF /* FHIRParticipant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRParticipant.h; sourceTree = "<group>"; };
+		89A97BEC178DD26300B08DEF /* FHIRPatientContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRPatientContact.h; sourceTree = "<group>"; };
+		89A97BED178DD26300B08DEF /* FHIRPeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRPeriod.h; sourceTree = "<group>"; };
+		89A97BEE178DD26300B08DEF /* FHIRProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRProduct.h; sourceTree = "<group>"; };
+		89A97BEF178DD26300B08DEF /* FHIRQuantity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRQuantity.h; sourceTree = "<group>"; };
+		89A97BF0178DD26300B08DEF /* FHIRRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRRange.h; sourceTree = "<group>"; };
+		89A97BF1178DD26300B08DEF /* FHIRRatio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRRatio.h; sourceTree = "<group>"; };
+		89A97BF2178DD26300B08DEF /* FHIRResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRResource.h; sourceTree = "<group>"; };
+		89A97BF3178DD26300B08DEF /* FHIRResourceContained.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRResourceContained.h; sourceTree = "<group>"; };
+		89A97BF4178DD26300B08DEF /* FHIRResourceReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRResourceReference.h; sourceTree = "<group>"; };
+		89A97BF5178DD26300B08DEF /* FHIRResourceType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRResourceType.h; sourceTree = "<group>"; };
+		89A97BF6178DD26300B08DEF /* FHIRSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRSchedule.h; sourceTree = "<group>"; };
+		89A97BF7178DD26300B08DEF /* FHIRString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRString.h; sourceTree = "<group>"; };
+		89A97BF8178DD26300B08DEF /* FHIRSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRSubscriber.h; sourceTree = "<group>"; };
+		89A97BF9178DD26300B08DEF /* FHIRSubstitution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRSubstitution.h; sourceTree = "<group>"; };
+		89A97BFA178DD26300B08DEF /* FHIRSymptom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRSymptom.h; sourceTree = "<group>"; };
+		89A97BFB178DD26300B08DEF /* FHIRText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRText.h; sourceTree = "<group>"; };
+		89A97BFC178DD26300B08DEF /* FHIRType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRType.h; sourceTree = "<group>"; };
+		89A97BFD178DD26300B08DEF /* FHIRUri.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHIRUri.h; sourceTree = "<group>"; };
+		89A97BFE178DD26300B08DEF /* XhtmlNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XhtmlNode.h; sourceTree = "<group>"; };
+		89A97BFF178DD26300B08DEF /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		89A97C00178DD26300B08DEF /* XMLWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLWriter.h; sourceTree = "<group>"; };
+		89A97C01178DD26300B08DEF /* libFHIR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFHIR.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89A97B68178DD12C00B08DEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A97B6F178DD12C00B08DEF /* UIKit.framework in Frameworks */,
+				89A97B71178DD12C00B08DEF /* Foundation.framework in Frameworks */,
+				89A97B73178DD12C00B08DEF /* CoreGraphics.framework in Frameworks */,
+				89A97C02178DD26300B08DEF /* libFHIR.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A97B93178DD12D00B08DEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A97B99178DD12D00B08DEF /* SenTestingKit.framework in Frameworks */,
+				89A97B9A178DD12D00B08DEF /* UIKit.framework in Frameworks */,
+				89A97B9B178DD12D00B08DEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89A97B62178DD12C00B08DEF = {
+			isa = PBXGroup;
+			children = (
+				89A97B74178DD12C00B08DEF /* fhirapp */,
+				89A97B9E178DD12D00B08DEF /* fhirappTests */,
+				89A97B6D178DD12C00B08DEF /* Frameworks */,
+				89A97B6C178DD12C00B08DEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89A97B6C178DD12C00B08DEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89A97B6B178DD12C00B08DEF /* fhirapp.app */,
+				89A97B97178DD12D00B08DEF /* fhirappTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89A97B6D178DD12C00B08DEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89A97B6E178DD12C00B08DEF /* UIKit.framework */,
+				89A97B70178DD12C00B08DEF /* Foundation.framework */,
+				89A97B72178DD12C00B08DEF /* CoreGraphics.framework */,
+				89A97B98178DD12D00B08DEF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89A97B74178DD12C00B08DEF /* fhirapp */ = {
+			isa = PBXGroup;
+			children = (
+				89A97BAF178DD26300B08DEF /* libFHIR */,
+				89A97B7D178DD12C00B08DEF /* FHIRAPPAppDelegate.h */,
+				89A97B7E178DD12C00B08DEF /* FHIRAPPAppDelegate.m */,
+				89A97B86178DD12C00B08DEF /* MainStoryboard_iPhone.storyboard */,
+				89A97B89178DD12C00B08DEF /* MainStoryboard_iPad.storyboard */,
+				89A97B8C178DD12C00B08DEF /* FHIRAPPMasterViewController.h */,
+				89A97B8D178DD12C00B08DEF /* FHIRAPPMasterViewController.m */,
+				89A97B8F178DD12C00B08DEF /* FHIRAPPDetailViewController.h */,
+				89A97B90178DD12D00B08DEF /* FHIRAPPDetailViewController.m */,
+				89A97B75178DD12C00B08DEF /* Supporting Files */,
+				899BAA43178EF0E700BCE54E /* FHIRAPPApploadViewController.h */,
+				899BAA44178EF0E800BCE54E /* FHIRAPPApploadViewController.m */,
+			);
+			path = fhirapp;
+			sourceTree = "<group>";
+		};
+		89A97B75178DD12C00B08DEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89A97B76178DD12C00B08DEF /* fhirapp-Info.plist */,
+				89A97B77178DD12C00B08DEF /* InfoPlist.strings */,
+				89A97B7A178DD12C00B08DEF /* main.m */,
+				89A97B7C178DD12C00B08DEF /* fhirapp-Prefix.pch */,
+				89A97B80178DD12C00B08DEF /* Default.png */,
+				89A97B82178DD12C00B08DEF /* Default@2x.png */,
+				89A97B84178DD12C00B08DEF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89A97B9E178DD12D00B08DEF /* fhirappTests */ = {
+			isa = PBXGroup;
+			children = (
+				89A97BA4178DD12D00B08DEF /* fhirappTests.h */,
+				89A97BA5178DD12D00B08DEF /* fhirappTests.m */,
+				89A97B9F178DD12D00B08DEF /* Supporting Files */,
+			);
+			path = fhirappTests;
+			sourceTree = "<group>";
+		};
+		89A97B9F178DD12D00B08DEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89A97BA0178DD12D00B08DEF /* fhirappTests-Info.plist */,
+				89A97BA1178DD12D00B08DEF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89A97BAF178DD26300B08DEF /* libFHIR */ = {
+			isa = PBXGroup;
+			children = (
+				89A97BB0178DD26300B08DEF /* Headers */,
+				89A97BC3178DD26300B08DEF /* include */,
+				89A97C01178DD26300B08DEF /* libFHIR.a */,
+			);
+			path = libFHIR;
+			sourceTree = "<group>";
+		};
+		89A97BB0178DD26300B08DEF /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				89A97BB1178DD26300B08DEF /* DictToJSON.h */,
+				89A97BB2178DD26300B08DEF /* DictToXML.h */,
+				89A97BB3178DD26300B08DEF /* FHIR.h */,
+				89A97BB4178DD26300B08DEF /* FHIRAdverseReaction.h */,
+				89A97BB5178DD26300B08DEF /* FHIRAlert.h */,
+				89A97BB6178DD26300B08DEF /* FHIRAllergyIntolerance.h */,
+				89A97BB7178DD26300B08DEF /* FHIRCarePlan.h */,
+				89A97BB8178DD26300B08DEF /* FHIRCoverage.h */,
+				89A97BB9178DD26300B08DEF /* FHIRMedication.h */,
+				89A97BBA178DD26300B08DEF /* FHIRMedicationAdministration.h */,
+				89A97BBB178DD26300B08DEF /* FHIRMedicationDispense.h */,
+				89A97BBC178DD26300B08DEF /* FHIRMedicationPrescription.h */,
+				89A97BBD178DD26300B08DEF /* FHIRMedicationStatement.h */,
+				89A97BBE178DD26300B08DEF /* FHIROrganization.h */,
+				89A97BBF178DD26300B08DEF /* FHIRPatient.h */,
+				89A97BC0178DD26300B08DEF /* FHIRResourceDictionary.h */,
+				89A97BC1178DD26300B08DEF /* JSONToDict.h */,
+				89A97BC2178DD26300B08DEF /* XMLToDict.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		89A97BC3178DD26300B08DEF /* include */ = {
+			isa = PBXGroup;
+			children = (
+				89A97BC4178DD26300B08DEF /* private */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		89A97BC4178DD26300B08DEF /* private */ = {
+			isa = PBXGroup;
+			children = (
+				89A97BC5178DD26300B08DEF /* Base64Binary.h */,
+				89A97BC6178DD26300B08DEF /* Base64Decoder.h */,
+				89A97BC7178DD26300B08DEF /* Base64Encoder.h */,
+				89A97BC8178DD26300B08DEF /* FHIR-Prefix.pch */,
+				89A97BC9178DD26300B08DEF /* FHIRAccreditation.h */,
+				89A97BCA178DD26300B08DEF /* FHIRActivity.h */,
+				89A97BCB178DD26300B08DEF /* FHIRAddress.h */,
+				89A97BCC178DD26300B08DEF /* FHIRAnimal.h */,
+				89A97BCD178DD26300B08DEF /* FHIRAttachment.h */,
+				89A97BCE178DD26300B08DEF /* FHIRBool.h */,
+				89A97BCF178DD26300B08DEF /* FHIRChoice.h */,
+				89A97BD0178DD26300B08DEF /* FHIRChoiceOption.h */,
+				89A97BD1178DD26300B08DEF /* FHIRCode.h */,
+				89A97BD2178DD26300B08DEF /* FHIRCodeableConcept.h */,
+				89A97BD3178DD26300B08DEF /* FHIRCoding.h */,
+				89A97BD4178DD26300B08DEF /* FHIRCommunication.h */,
+				89A97BD5178DD26300B08DEF /* FHIRContact.h */,
+				89A97BD6178DD26300B08DEF /* FHIRContactEntity.h */,
+				89A97BD7178DD26300B08DEF /* FHIRContent.h */,
+				89A97BD8178DD26300B08DEF /* FHIRDate.h */,
+				89A97BD9178DD26300B08DEF /* FHIRDispense.h */,
+				89A97BDA178DD26300B08DEF /* FHIRDosage.h */,
+				89A97BDB178DD26300B08DEF /* FHIRDosageInstructions.h */,
+				89A97BDC178DD26300B08DEF /* FHIRElement.h */,
+				89A97BDD178DD26300B08DEF /* FHIRExistanceChecker.h */,
+				89A97BDE178DD26300B08DEF /* FHIRExposure.h */,
+				89A97BDF178DD26300B08DEF /* FHIRExtension.h */,
+				89A97BE0178DD26300B08DEF /* FHIRGoal.h */,
+				89A97BE1178DD26300B08DEF /* FHIRHumanName.h */,
+				89A97BE2178DD26300B08DEF /* FHIRIdentifier.h */,
+				89A97BE3178DD26300B08DEF /* FHIRImage.h */,
+				89A97BE4178DD26300B08DEF /* FHIRIngredient.h */,
+				89A97BE5178DD26300B08DEF /* FHIRInteger.h */,
+				89A97BE6178DD26300B08DEF /* FHIRMedicationPrescriptionDispense.h */,
+				89A97BE7178DD26300B08DEF /* FHIRMedicationPrescriptionSubstitution.h */,
+				89A97BE8178DD26300B08DEF /* FHIRNarrative.h */,
+				89A97BE9178DD26300B08DEF /* FHIRNodeType.h */,
+				89A97BEA178DD26300B08DEF /* FHIRPackage.h */,
+				89A97BEB178DD26300B08DEF /* FHIRParticipant.h */,
+				89A97BEC178DD26300B08DEF /* FHIRPatientContact.h */,
+				89A97BED178DD26300B08DEF /* FHIRPeriod.h */,
+				89A97BEE178DD26300B08DEF /* FHIRProduct.h */,
+				89A97BEF178DD26300B08DEF /* FHIRQuantity.h */,
+				89A97BF0178DD26300B08DEF /* FHIRRange.h */,
+				89A97BF1178DD26300B08DEF /* FHIRRatio.h */,
+				89A97BF2178DD26300B08DEF /* FHIRResource.h */,
+				89A97BF3178DD26300B08DEF /* FHIRResourceContained.h */,
+				89A97BF4178DD26300B08DEF /* FHIRResourceReference.h */,
+				89A97BF5178DD26300B08DEF /* FHIRResourceType.h */,
+				89A97BF6178DD26300B08DEF /* FHIRSchedule.h */,
+				89A97BF7178DD26300B08DEF /* FHIRString.h */,
+				89A97BF8178DD26300B08DEF /* FHIRSubscriber.h */,
+				89A97BF9178DD26300B08DEF /* FHIRSubstitution.h */,
+				89A97BFA178DD26300B08DEF /* FHIRSymptom.h */,
+				89A97BFB178DD26300B08DEF /* FHIRText.h */,
+				89A97BFC178DD26300B08DEF /* FHIRType.h */,
+				89A97BFD178DD26300B08DEF /* FHIRUri.h */,
+				89A97BFE178DD26300B08DEF /* XhtmlNode.h */,
+				89A97BFF178DD26300B08DEF /* XMLReader.h */,
+				89A97C00178DD26300B08DEF /* XMLWriter.h */,
+			);
+			path = private;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89A97B6A178DD12C00B08DEF /* fhirapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A97BA9178DD12D00B08DEF /* Build configuration list for PBXNativeTarget "fhirapp" */;
+			buildPhases = (
+				89A97B67178DD12C00B08DEF /* Sources */,
+				89A97B68178DD12C00B08DEF /* Frameworks */,
+				89A97B69178DD12C00B08DEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fhirapp;
+			productName = fhirapp;
+			productReference = 89A97B6B178DD12C00B08DEF /* fhirapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89A97B96178DD12D00B08DEF /* fhirappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A97BAC178DD12D00B08DEF /* Build configuration list for PBXNativeTarget "fhirappTests" */;
+			buildPhases = (
+				89A97B92178DD12D00B08DEF /* Sources */,
+				89A97B93178DD12D00B08DEF /* Frameworks */,
+				89A97B94178DD12D00B08DEF /* Resources */,
+				89A97B95178DD12D00B08DEF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89A97B9D178DD12D00B08DEF /* PBXTargetDependency */,
+			);
+			name = fhirappTests;
+			productName = fhirappTests;
+			productReference = 89A97B97178DD12D00B08DEF /* fhirappTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89A97B63178DD12C00B08DEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FHIRAPP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Adam Sippel";
+			};
+			buildConfigurationList = 89A97B66178DD12C00B08DEF /* Build configuration list for PBXProject "fhirapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89A97B62178DD12C00B08DEF;
+			productRefGroup = 89A97B6C178DD12C00B08DEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89A97B6A178DD12C00B08DEF /* fhirapp */,
+				89A97B96178DD12D00B08DEF /* fhirappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89A97B69178DD12C00B08DEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A97B79178DD12C00B08DEF /* InfoPlist.strings in Resources */,
+				89A97B81178DD12C00B08DEF /* Default.png in Resources */,
+				89A97B83178DD12C00B08DEF /* Default@2x.png in Resources */,
+				89A97B85178DD12C00B08DEF /* Default-568h@2x.png in Resources */,
+				89A97B88178DD12C00B08DEF /* MainStoryboard_iPhone.storyboard in Resources */,
+				89A97B8B178DD12C00B08DEF /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A97B94178DD12D00B08DEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A97BA3178DD12D00B08DEF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89A97B95178DD12D00B08DEF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89A97B67178DD12C00B08DEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A97B7B178DD12C00B08DEF /* main.m in Sources */,
+				89A97B7F178DD12C00B08DEF /* FHIRAPPAppDelegate.m in Sources */,
+				89A97B8E178DD12C00B08DEF /* FHIRAPPMasterViewController.m in Sources */,
+				89A97B91178DD12D00B08DEF /* FHIRAPPDetailViewController.m in Sources */,
+				899BAA45178EF0E800BCE54E /* FHIRAPPApploadViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A97B92178DD12D00B08DEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A97BA6178DD12D00B08DEF /* fhirappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89A97B9D178DD12D00B08DEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89A97B6A178DD12C00B08DEF /* fhirapp */;
+			targetProxy = 89A97B9C178DD12D00B08DEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89A97B77178DD12C00B08DEF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89A97B78178DD12C00B08DEF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		89A97B86178DD12C00B08DEF /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89A97B87178DD12C00B08DEF /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		89A97B89178DD12C00B08DEF /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89A97B8A178DD12C00B08DEF /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		89A97BA1178DD12D00B08DEF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89A97BA2178DD12D00B08DEF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89A97BA7178DD12D00B08DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89A97BA8178DD12D00B08DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89A97BAA178DD12D00B08DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fhirapp/fhirapp-Prefix.pch";
+				INFOPLIST_FILE = "fhirapp/fhirapp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/fhirapp/libFHIR\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		89A97BAB178DD12D00B08DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fhirapp/fhirapp-Prefix.pch";
+				INFOPLIST_FILE = "fhirapp/fhirapp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/fhirapp/libFHIR\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		89A97BAD178DD12D00B08DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fhirapp.app/fhirapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fhirapp/fhirapp-Prefix.pch";
+				INFOPLIST_FILE = "fhirappTests/fhirappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		89A97BAE178DD12D00B08DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fhirapp.app/fhirapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fhirapp/fhirapp-Prefix.pch";
+				INFOPLIST_FILE = "fhirappTests/fhirappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89A97B66178DD12C00B08DEF /* Build configuration list for PBXProject "fhirapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A97BA7178DD12D00B08DEF /* Debug */,
+				89A97BA8178DD12D00B08DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A97BA9178DD12D00B08DEF /* Build configuration list for PBXNativeTarget "fhirapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A97BAA178DD12D00B08DEF /* Debug */,
+				89A97BAB178DD12D00B08DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A97BAC178DD12D00B08DEF /* Build configuration list for PBXNativeTarget "fhirappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A97BAD178DD12D00B08DEF /* Debug */,
+				89A97BAE178DD12D00B08DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89A97B63178DD12C00B08DEF /* Project object */;
+}
